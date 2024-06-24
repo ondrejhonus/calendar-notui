@@ -4,7 +4,7 @@
 
 #define SIZE 100
 
-static const int month_len[] = {31,28,31,30,31,30,31,31,30,31,30,31};
+const int month_len[] = {31,28,31,30,31,30,31,31,30,31,30,31};
 
 void get_month_name(int month_num, char month[20]){
     switch(month_num){
@@ -46,11 +46,11 @@ void get_month_name(int month_num, char month[20]){
     }
 }
 
-static int is_leap_year(int year) {
+int is_leap_year(int year) {
     return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
 }
 
-static int get_first_day(struct tm tm) {
+int get_first_day(struct tm tm) {
     int year = tm.tm_year + 1900;
     int mon = tm.tm_mon;
     int dow = 3;  // 1800-01-01 is a Wednesday.
