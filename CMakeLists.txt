@@ -3,4 +3,5 @@ project(calendar_notui C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(calendar_notui main.c)
+add_executable(calendar_notui
+        calendar.c)
