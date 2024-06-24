@@ -1,7 +1,7 @@
 ## Text based calendar in C that displays current date and shows the calendar for the month.
 
 # Screenshot:
-<img src="screenshot.png" width=30%></img>
+<img src="screenshot.png" width=40%></img>
 
 # How to use
 
