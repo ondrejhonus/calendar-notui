@@ -1,0 +1,3 @@
+/home/qwerti/Documents/GitHub/calendar-notui/cmake-build-debug/CMakeFiles/calendar_notui.dir
+/home/qwerti/Documents/GitHub/calendar-notui/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/qwerti/Documents/GitHub/calendar-notui/cmake-build-debug/CMakeFiles/rebuild_cache.dir

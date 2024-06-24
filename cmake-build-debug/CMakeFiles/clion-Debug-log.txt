@@ -1,0 +1,10 @@
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=ninja -DCMAKE_C_COMPILER=cc -G Ninja -S /home/qwerti/Documents/GitHub/calendar-notui -B /home/qwerti/Documents/GitHub/calendar-notui/cmake-build-debug
+-- The C compiler identification is GNU 14.1.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/qwerti/Documents/GitHub/calendar-notui/cmake-build-debug
